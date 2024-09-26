@@ -1,0 +1,30 @@
+body {
+  color: white;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  text-align: center;
+  border: 3px solid rgb(250, 253, 250);
+}
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 70px;
+}
+.recipe {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+ul {
+  padding: 0;
+  display: inline-block;
+}
+
+.ingredients {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.instruct {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
